@@ -1,4 +1,5 @@
 .section-means {
+  position: relative;
   max-width: 100%;
   height: 533px;
   display: grid;
@@ -9,6 +10,7 @@
     "image-container text-container"
     "image-container text-container";
   justify-content: center;
+  margin-top: 4rem;
 }
 .image-container {
   position: relative;
@@ -36,6 +38,13 @@
   grid-area: text-container;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  margin: 0 5rem 0 5rem;
+  margin: 0 5rem 4rem 5rem;
+  text-align: justify;
+}
+.patern-curve {
+  position: absolute;
+  top: -110px;
+  right: 90px;
 }

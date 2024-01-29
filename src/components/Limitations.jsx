@@ -1,8 +1,13 @@
-import React from "react";
+import "./Limitations.css";
+import gender from "/icon-gender.svg";
+import age from "/icon-age.svg";
+import muscle from "/icon-muscle.svg";
+import pregnancy from "/icon-pregnancy.svg";
+import race from "/icon-race.svg";
 
 export const Limitations = () => {
   return (
-    <section>
+    <section className="section-limitations">
       <div>
         <h3>Limitations of BMI</h3>
         <p>
@@ -12,7 +17,7 @@ export const Limitations = () => {
         </p>
       </div>
       <article>
-        <img src="" alt="" />
+        <img src={gender} alt="" />
         <h4>Gender</h4>
         <p>
           The development and body fat composition of girls and boys vary with age.
@@ -20,7 +25,7 @@ export const Limitations = () => {
         </p>
       </article>
       <article>
-        <img src="" alt="" />
+        <img src={age} alt="" />
         <h4>Age</h4>
         <p>
           In aging individuals, increased body fat and muscle loss may cause BMI to
@@ -28,7 +33,7 @@ export const Limitations = () => {
         </p>
       </article>
       <article>
-        <img src="" alt="" />
+        <img src={muscle} alt="" />
         <h4>Muscle</h4>
         <p>
           BMI may misclassify muscular individuals as overweight or obese, as it doesn't
@@ -36,7 +41,7 @@ export const Limitations = () => {
         </p>
       </article>
       <article>
-        <img src="" alt="" />
+        <img src={pregnancy} alt="" />
         <h4>Pregnancy</h4>
         <p>
           Expectant mothers experience weight gain due to their growing baby. Maintaining
@@ -45,7 +50,7 @@ export const Limitations = () => {
         </p>
       </article>
       <article>
-        <img src="" alt="" />
+        <img src={race} alt="" />
         <h4>Race</h4>
         <p>
           Certain health concerns may affect individuals of some Black and Asian origins

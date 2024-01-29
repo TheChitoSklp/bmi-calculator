@@ -1,8 +1,9 @@
 .details-container {
   box-sizing: border-box;
   display: flex;
+  justify-content: space-between;
   width: 564px;
-  height: auto;
+  height: 550px;
   padding: 32px;
   flex-direction: column;
   align-items: flex-start;
@@ -33,7 +34,7 @@
   height: 777px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
