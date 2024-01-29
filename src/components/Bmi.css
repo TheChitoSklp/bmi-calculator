@@ -1,0 +1,15 @@
+.bmi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 16px 999px 999px 16px;
+  background: linear-gradient(90deg, #345ff6 0%, #587dff 100%);
+  padding: 32px;
+  color: white;
+}
+.h3-bmi-container,
+.p-container {
+  width: 100%;
+}

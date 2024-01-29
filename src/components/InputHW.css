@@ -1,0 +1,46 @@
+.input-with-unit {
+  position: relative;
+  display: inline-block;
+}
+
+.input-with-unit input {
+  padding-right: 25px;
+}
+
+.contenedor {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+}
+.inputEstilizado {
+  display: flex;
+  padding: 20px 24px;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #d8e2e7;
+  background: var(--Pure-White, #fff);
+  color: var(--Gunmetal, #253347);
+  font-size: 24px;
+  font-weight: 600;
+  width: 188px;
+}
+.unit {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  color: var(--Blue, #345ff6);
+  font-size: 24px;
+  font-weight: 600;
+}

@@ -1,0 +1,12 @@
+.select-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.select-label {
+  width: 100%;
+}
+.input-radio {
+  width: 31px;
+  height: 31px;
+}
