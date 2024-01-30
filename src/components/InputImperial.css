@@ -1,0 +1,19 @@
+.input-pair-container {
+  display: flex;
+  gap: 10px;
+}
+
+.input-estilizado {
+  display: flex;
+  padding: 20px 24px;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid #d8e2e7;
+  background: var(--Pure-White, #fff);
+  color: var(--Gunmetal, #253347);
+  font-size: 24px;
+  font-weight: 600;
+  width: 188px;
+}

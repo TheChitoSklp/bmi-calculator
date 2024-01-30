@@ -1,0 +1,69 @@
+.section-limitations {
+  margin: 5rem 5rem 1rem 6rem;
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "limitations-article limitations-article limitations-article . gender-article gender-article"
+    "icon-hair icon-hair age-article age-article muscle-article muscle-article"
+    ". pregnancy-article pregnancy-article race-article race-article .";
+}
+
+.limitations-article {
+  grid-area: limitations-article;
+}
+
+.gender-article {
+  grid-area: gender-article;
+}
+
+.icon-hair {
+  grid-area: icon-hair;
+}
+
+.age-article {
+  grid-area: age-article;
+}
+
+.muscle-article {
+  grid-area: muscle-article;
+}
+
+.pregnancy-article {
+  grid-area: pregnancy-article;
+}
+
+.race-article {
+  grid-area: race-article;
+}
+
+.gender-article,
+.icon-hair,
+.age-article,
+.muscle-article,
+.pregnancy-article,
+.race-article {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: var(--Pure-White, #fff);
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+  width: 365px;
+  height: auto;
+  padding: 32px;
+}
+.icon-img-container {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.icon-img-container img {
+  margin-right: 15px;
+}
+.age-article,
+.muscle-article {
+  height: 184px;
+}
