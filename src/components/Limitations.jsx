@@ -4,6 +4,7 @@ import age from "/icon-age.svg";
 import muscle from "/icon-muscle.svg";
 import pregnancy from "/icon-pregnancy.svg";
 import race from "/icon-race.svg";
+import paternRight from "/pattern-curved-line-right.svg";
 
 export const Limitations = () => {
   return (
@@ -18,7 +19,7 @@ export const Limitations = () => {
       </article>
       <article className="gender-article">
         <div className="icon-img-container">
-          <img src={gender} alt="" />
+          <img src={gender} alt="gender" />
           <span>Gender</span>
         </div>
         <p>
@@ -26,9 +27,12 @@ export const Limitations = () => {
           Consequently, a child's age and gender are considered when evaluating their BMI.
         </p>
       </article>
+      <div className="icon-hair">
+        <img className="pattern-rigth" src={paternRight} alt="icon-hair" />
+      </div>
       <article className="age-article">
         <div className="icon-img-container">
-          <img src={age} alt="" />
+          <img src={age} alt="age" />
           <span>Age</span>
         </div>
         <p>
@@ -38,7 +42,7 @@ export const Limitations = () => {
       </article>
       <article className="muscle-article">
         <div className="icon-img-container">
-          <img src={muscle} alt="" />
+          <img src={muscle} alt="muscle" />
           <span>Muscle</span>
         </div>
         <p>
@@ -48,7 +52,7 @@ export const Limitations = () => {
       </article>
       <article className="pregnancy-article">
         <div className="icon-img-container">
-          <img src={pregnancy} alt="" />
+          <img src={pregnancy} alt="pregnancy" />
           <span>Pregnancy</span>
         </div>
         <p>
@@ -59,7 +63,7 @@ export const Limitations = () => {
       </article>
       <article className="race-article">
         <div className="icon-img-container">
-          <img src={race} alt="" />
+          <img src={race} alt="race" />
           <span>Race</span>
         </div>
         <p>

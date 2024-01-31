@@ -14,7 +14,7 @@ export const Details = () => {
   const [heightIN, setHeightIN] = useState(0);
   const [weightST, setWeightST] = useState(0);
   const [weightLBS, setWeightLBS] = useState(0);
-  const [bmiResult, setBmiResult] = useState(null);
+  const [bmiResult, setBmiResult] = useState(0);
 
   const handleSeleccion = (opcion) => {
     setSeleccion(opcion);
@@ -31,7 +31,6 @@ export const Details = () => {
   };
 
   useEffect(() => {
-    // Llama a la función de cálculo cuando se actualizan los datos
     calculateBMI();
   }, [height, weight, heightFT, heightIN, weightST, weightLBS, seleccion]);
 

@@ -1,9 +1,16 @@
+/* Estilos fuera de la regla de medios */
+.container-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-limitations {
   margin: 5rem 5rem 1rem 6rem;
   width: 85%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   gap: 2rem;
   grid-auto-flow: row;
   grid-template-areas:
@@ -22,6 +29,8 @@
 
 .icon-hair {
   grid-area: icon-hair;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .age-article {
@@ -41,7 +50,6 @@
 }
 
 .gender-article,
-.icon-hair,
 .age-article,
 .muscle-article,
 .pregnancy-article,
@@ -54,16 +62,70 @@
   height: auto;
   padding: 32px;
 }
+
 .icon-img-container {
   height: 32px;
   display: flex;
   align-items: center;
   font-weight: bold;
 }
+
 .icon-img-container img {
   margin-right: 15px;
 }
+
 .age-article,
 .muscle-article {
   height: 184px;
+}
+
+.pattern-rigth {
+  width: 94px;
+  height: 122px;
+  padding-right: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-limitations {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1.5rem;
+    grid-auto-rows: auto;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "limitations-article"
+      "gender-article"
+      "age-article"
+      "muscle-article"
+      "pregnancy-article"
+      "race-article";
+  }
+  .gender-article,
+  .age-article,
+  .muscle-article,
+  .pregnancy-article,
+  .race-article {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: var(--Pure-White, #fff);
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+    width: 365px;
+    height: auto;
+    padding: 24px;
+  }
+  .limitations-article {
+    margin: 0 1.2rem;
+  }
 }
