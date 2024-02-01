@@ -48,3 +48,35 @@
   top: -110px;
   right: 90px;
 }
+@media screen and (max-width: 768px) {
+  .section-means {
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0rem 0px;
+    grid-template-areas:
+      "image-container"
+      "image-container"
+      "text-container"
+      "text-container";
+  }
+  .back-img {
+    height: 250px;
+    width: 100vw;
+  }
+  .img-man {
+    height: 354.39px;
+    width: 354.39px;
+    top: -105px;
+    left: 20px;
+  }
+  .patern-curve {
+    display: none;
+  }
+  .text-container {
+    width: 60%;
+    margin: 0 0 0 7rem;
+  }
+}

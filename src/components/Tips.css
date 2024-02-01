@@ -24,3 +24,9 @@
 .sleep-container {
   padding: 24px;
 }
+@media screen and (max-width: 768px) {
+  .section-tips {
+    flex-direction: column;
+    width: 100%;
+  }
+}
