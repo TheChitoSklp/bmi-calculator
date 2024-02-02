@@ -10,7 +10,7 @@ export const InputImperial = ({
   handleWeightLBSChange,
 }) => {
   return (
-    <div>
+    <div className="imperial-container">
       <div>
         <label>
           Height:

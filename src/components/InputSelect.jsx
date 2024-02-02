@@ -10,7 +10,7 @@ export const InputSelect = ({ handleSeleccion, seleccion }) => {
           checked={seleccion === "Metric"}
           onChange={() => handleSeleccion("Metric")}
         />
-        Metric
+        <span className="Metric-label">Metric</span>
       </label>
 
       <label className="select-label">
@@ -21,7 +21,7 @@ export const InputSelect = ({ handleSeleccion, seleccion }) => {
           checked={seleccion === "Imperial"}
           onChange={() => handleSeleccion("Imperial")}
         />
-        Imperial
+        <span className="Imperial-label">Imperial</span>
       </label>
     </div>
   );
